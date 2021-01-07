@@ -1,0 +1,392 @@
+/* Importing Font Styles */
+
+@font-face {
+    font-family: metropolis;
+    src: url("/metropolis/Metropolis-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: metropolis-extrabold;
+    src: url("/metropolis/Metropolis-ExtraBold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: metropolis-medium;
+    src: url("/metropolis/Metropolis-Medium.otf") format("opentype");
+}
+
+@font-face {
+    font-family: metropolis-black;
+    src: url("/metropolis/Metropolis-Black.otf") format("opentype");
+}
+
+@font-face {
+    font-family: metropolis-semibold;
+    src: url("/metropolis/Metropolis-SemiBold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: metropolis-bold;
+    src: url("/metropolis/Metropolis-Bold.otf") format("opentype");
+}
+
+/* Navbar */
+
+#navbarid {
+    font-family: metropolis-medium;
+}
+
+#navbarid #logoimg {
+    margin-left: 100px;
+}
+
+#navbarid #endbar {
+    margin-left: 150px;
+}
+
+#navbarid #endbar a:hover {
+    border-bottom: 2px solid #717CFF;
+
+}
+
+/* Pageheader */
+
+#pageheader h1 {
+    font-family: metropolis-black;
+}
+
+#navbarid #logoicon {
+    border: 1px solid #717CFF;
+}
+
+
+#pageheader span {
+    color: #717CFF;
+}
+
+#pageheader p {
+    font-family: metropolis-medium;
+    color: #7D7D7D;
+}
+
+#pageheader button {
+    background: #717CFF;
+    border-radius: 10px;
+    margin-left: -20px;
+    font-family: metropolis-medium;
+    font-size: 20px;
+}
+
+#pageheader #icon {
+    padding-left: 7px;
+    padding-bottom: 2px;
+    width: 23px;
+}
+
+#pageheader #socialmed {
+    list-style: none;
+    display: flex;
+    margin-left: -35px;
+}
+
+#pageheader #right-side img {
+    width: 500px;
+    margin-left: 159px;
+}
+
+/* Featured */
+
+#featured {
+    background-color: #FAFAFA;
+    font-family: metropolis-medium;
+    color: #373737;
+}
+
+
+#featured a img {
+    width: 180px;
+}
+
+/* News */
+
+#news {
+    background-color: #FAFAFA;
+}
+
+#news h1 {
+    font-family: metropolis-bold;
+}
+
+#news p {
+    font-family: metropolis-medium;
+    color: #7D7D7D;
+}
+
+#news .card {
+    width: 300px;
+    height: 350px;
+    box-shadow: 1px 1px 50px 1px #e9e9e9;
+    border: 1px solid white;
+
+}
+
+#news .card-img-top {
+    width: 300px;
+    margin-top: -10px;
+    margin-left: -1px;
+}
+
+#news .card h5 {
+    font-family: metropolis-extrabold;
+}
+
+#news .card p {
+    font-family: metropolis-semibold;
+}
+
+#news button {
+    background: #717CFF;
+    border-radius: 10px;
+    margin-left: -20px;
+    font-family: metropolis-medium;
+    font-size: 20px;
+}
+
+#news #icon {
+    padding-left: 10px;
+    padding-bottom: 1px;
+    width: 30px;
+}
+
+/* Upcoming events */
+
+
+#upcomingevents h1 {
+    font-family: metropolis-extrabold;
+}
+
+#upcomingevents p {
+    font-family: metropolis-medium;
+    color: #7D7D7D;
+}
+
+#upcomingevents .card {
+    box-shadow: 1px 1px 50px 1px #e9e9e9;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+#upcomingevents .date {
+    display: inline-block;
+    background-color: #ECEDFF;
+    font-family: metropolis-extrabold;
+    color: #717CFF;
+    border-radius: 0.7rem;
+    font-size: 27px;
+
+}
+
+#upcomingevents .date span {
+    font-family: metropolis-medium;
+    font-size: 18px;
+    margin-top: -50px;
+}
+
+#upcomingevents .uniparag {
+    padding-right: 10px;
+    margin-right: 130px;
+    margin-top: 10px;
+    font-size: 25px;
+    font-family: metropolis-bold;
+    color: #37474F;
+}
+
+#upcomingevents #learn {
+    color: #717CFF;
+    font-family: metropolis-bold;
+    display: inline-block;
+    cursor: pointer;
+}
+
+#upcomingevents #time {
+    font-family: metropolis-semibold;
+    color: #373737;
+}
+
+/* Testimonials */
+
+#testimonials .backgrounddot {
+    display: inline-block;
+    width: 200px;
+    margin-left: 130px;
+}
+
+#testimonials span {
+    font-family: metropolis-bold;
+    margin-left: 85px;
+}
+
+#testimonials p {
+    font-family: metropolis-medium;
+    color: #7D7D7D;
+    font-size: 20px;
+}
+
+#testimonials #profilecards {
+    width: 1200px;
+}
+
+#testimonials .profilepic {
+    width: 50px;
+    margin-left: 0;
+    margin-right: 15px;
+}
+
+#testimonials .cardcorner {
+    border-radius: 15px;
+    box-shadow: 1px 1px 50px 1px #e9e9e9;
+    border: 1px solid white;
+}
+
+#testimonials .names {
+    font-family: metropolis-semibold;
+}
+
+#testimonials .jobs {
+    font-family: metropolis-medium;
+}
+
+#testimonials .cardparag {
+    font-size: 15px;
+}
+
+/* Ready */
+
+#ready h1 {
+    font-family: metropolis-bold;
+}
+
+#ready button {
+    background: #717CFF;
+    border-radius: 10px;
+    margin-left: -20px;
+    font-family: metropolis-medium;
+    font-size: 20px;
+}
+
+#tready #icon {
+    padding-left: 7px;
+    padding-bottom: 2px;
+    width: 23px;
+}
+
+/* Footer */
+
+#footer {
+    background-color: #727CFF;
+}
+
+#footerlink1 a,
+#footerlink2 a {
+    text-decoration: none;
+}
+
+#socialfooter {
+    margin-top: 140px;
+}
+
+/* Country.html */
+
+#country {
+    background-color: #FAFAFA;
+}
+
+#country h1 {
+    font-family: metropolis-bold;
+}
+
+#country p {
+    font-family: metropolis-medium;
+    color: #7D7D7D;
+}
+
+#country h3 {
+    font-family: metropolis-semibold;
+    color: #37474F;
+}
+
+#country #titleinfo {
+    font-family: metropolis-medium;
+    color: #7D7D7D;
+    font-size: 20px;
+}
+
+/* Services.html */
+
+.row #icon1,
+.row #icon2,
+.row #icon3,
+.row #icon4,
+.row #icon5 {
+    width: 70px;
+}
+
+#servcard1,
+#servcard2,
+#servcard3,
+#servcard4,
+#servcard5 {
+    width: 310px;
+    height: 320px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 50px 1px #e9e9e9;
+    border: 1px solid white;
+}
+
+#servcard1:hover {
+    border: 3px solid #717CFF;
+    box-shadow: none;
+    transition: border 0.5s;
+}
+
+#servcard2:hover {
+    border: 3px solid #FF5959;
+    transition: border 0.5s;
+    box-shadow: none;
+}
+
+#servcard3:hover {
+    border: 3px solid #70CE88;
+    transition: border 0.5s;
+    box-shadow: none;
+}
+
+#servcard4:hover {
+    border: 3px solid #5C96FF;
+    transition: border 0.5s;
+    box-shadow: none;
+}
+
+#servcard5:hover {
+    border: 3px solid #FA706C;
+    transition: border 0.5s;
+    box-shadow: none;
+}
+
+#services h5 {
+    font-family: metropolis-bold;
+}
+
+#services p {
+    font-family: metropolis-medium;
+    font-size: 15px;
+    color: #7D7D7D;
+}
+
+#services #learn1 {
+    color: #717CFF;
+    font-family: metropolis-bold;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: -140px;
+}
